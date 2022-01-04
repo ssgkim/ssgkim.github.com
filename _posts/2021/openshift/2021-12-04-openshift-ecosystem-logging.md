@@ -86,7 +86,7 @@ oc 로그 -f multiline-log-9-sflkm | 펄 -pe 's/\R/\n/g'
 예를 들어, 두 줄의 초기화 로그 이벤트는 표준 출력에서 다음과 같습니다.
 
 ```
-{" @timestamp ":"2018-07-30T17:15:01.127-04:00", " @version ":"1", "message":" 메시지가 있는 초기화 GreetingController:\napplication.yaml의 %s님 안녕하세요 ! ", "logger_name":"my.company.multilinelog.service.GreetingController", "thread_name":"main","level":"INFO","level_value":20000}
+{" @timestamp ":"2021-11-30T17:15:01.127-04:00", " @version ":"1", "message":" 메시지가 있는 초기화 GreetingController:\napplication.yaml의 %s님 안녕하세요 ! ", "logger_name":"my.company.multilinelog.service.GreetingController", "thread_name":"main","level":"INFO","level_value":20000}
 ```
 
 OpenShift [Fluentd 이미지](https://github.com/openshift/origin-aggregated-logging/tree/v3.9.0/fluentd) 는 이러한 json 로그를 구문 분석하고 이를 Elasticsearch로 전달된 메시지에 병합하는 사전 구성된 플러그인과 함께 제공됩니다. 이는 여러 줄 로그에 유용할 뿐만 아니라 로그 이벤트의 다른 필드(예: 타임스탬프, 심각도)가 Elasticsearch에서 보기 좋게 표시되도록 보장합니다.
