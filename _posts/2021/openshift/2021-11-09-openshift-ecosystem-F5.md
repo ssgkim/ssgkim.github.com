@@ -13,11 +13,11 @@ toc_sticky: true
 toc_label: 목차
 description: F5는 멀티 클라우드 환경 전반에 걸쳐 애플리케이션 워크로드를 자동화, 확장 및 보호하기 위해 인증된 통합 솔루션을 제공합니다. 
   NGINX (Part of F5)와 RedHat의 시너지를 소개합니다.
-article_tag1: JBoss Middleware
-article_tag2: Java Virtual Machine
-article_tag3: Runtime Data Area
+article_tag1: OpenShift
+article_tag2: Network
+article_tag3: infra
 article_section: IT근황 공유하기
-meta_keywords: Middleware,jvm,JVM,java virtual machine
+meta_keywords: openshift,kubernetes,cncf,infra,network
 last_modified_at: '2021-11-09 23:00:00 +0800'
 ---
 
