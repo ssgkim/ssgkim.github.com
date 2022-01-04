@@ -18,10 +18,11 @@ article_tag2: Network
 article_tag3: infra
 article_section: IT근황 공유하기
 meta_keywords: openshift,kubernetes,cncf,infra,network
-last_modified_at: '2021-11-09 23:00:00 +0800'
+last_modified_at: '2021-11-17 23:00:00 +0800'
 ---
 
-### 모던앱 환경 구축을 돕는 최고의 플랫폼인 레드햇의 오픈쉬프트(Openshift). 그리고 오픈시프트에서 서비스를 쉽고 빠르게 서비스할 수 있게 도와주는 최고의 파트너 솔루션인 F5, NGINX. 이번 세미나에서는 실제 기업들이 레드햇과 F5의 솔루션을 사용하여, 어떻게 효과적인 모던앱 환경을 구축하는지를 사례를 통해서 알아봅니다.
+### 모던앱 환경 구축을 돕는 최고의 플랫폼인 레드햇의 오픈쉬프트(Openshift). 
+#### 오픈시프트에서 서비스를 쉽고 빠르게 서비스할 수 있게 도와주는 최고의 파트너 솔루션인 F5, NGINX. 이번 세미나에서는 실제 기업들이 레드햇과 F5의 솔루션을 사용하여, 어떻게 효과적인 모던앱 환경을 구축하는지를 사례를 통해서 알아봅니다.
 
 1. NGINX를 이용해, Openshift에서 A/B 테스팅 구현하기
 2. Azure AD, F5, NGINX 그리고 Openshift를 이용한 카나리 테스팅 구현하기
