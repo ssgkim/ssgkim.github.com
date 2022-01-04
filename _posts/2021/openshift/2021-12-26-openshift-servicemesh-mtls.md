@@ -11,7 +11,7 @@ categories:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description:마이크로 서비스 간의 트래픽이 제로 트러스트 네트워크에서 암호화되고 안전하다는 것을 어떻게 보장할 수 있을까요?
+description: 마이크로 서비스 간의 트래픽이 제로 트러스트 네트워크에서 암호화되고 안전하다는 것을 어떻게 보장할 수 있을까요?
 article_tag1: OpenShift
 article_tag2: ServiceMesh
 article_tag3: infra
