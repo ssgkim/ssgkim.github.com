@@ -63,9 +63,7 @@ Openshift EFK 로깅 스택에서 놀랍게도 동일한 로그 이벤트에 속
 
 CR에 대한 유니코드 값을 사용하여 Logback 구성 XML에서 유사한 패턴을 설정할 수 있습니다.
 
-<iframe src="https://itnext.io/media/c74f6e09aa2f36c2cd6998a584590e0b" allowfullscreen="" frameborder="0" height="364" width="680" title="OpenShift의 여러 줄 로그 - logback.xml" class="t u v rl aj" scrolling="auto" style="box-sizing: inherit; position: absolute; top: 0px; left: 0px; width: 680px; height: 364px;"></iframe>
-
-> 참고: 패턴 레이아웃의 특수 CR 문자 때문에 OpenShift ConfigMap 또는 컨테이너 환경 변수(b64로 인코딩될 수 있음)를 통해 설정하는 것이 쉽지 않습니다. 일반적으로 로그 패턴은 애플리케이션과 함께 패키지된 속성 파일에 설정되므로 실제로 문제가 되지는 않습니다.
+참고: 패턴 레이아웃의 특수 CR 문자 때문에 OpenShift ConfigMap 또는 컨테이너 환경 변수(b64로 인코딩될 수 있음)를 통해 설정하는 것이 쉽지 않습니다. 일반적으로 로그 패턴은 애플리케이션과 함께 패키지된 속성 파일에 설정되므로 실제로 문제가 되지는 않습니다.
 
 [이 예제 앱](https://github.com/bszeti/multiline-log) 은 줄 바꿈이 있는 메시지를 기록하고(줄 31) 시작할 때 예외를 throw합니다(줄 32). 기본적으로 모든 행은 별도의 로그 이벤트로 처리되었습니다. 위의 로그 패턴을 사용하면 OpenShift 콘솔의 포드 페이지에서 로그를 읽을 수 있습니다(로그 이벤트는 2K의 긴 세그먼트로 분할됨).
 
@@ -96,8 +94,6 @@ oc 로그 -f multiline-log-9-sflkm | 펄 -pe 's/\R/\n/g'
 OpenShift [Fluentd 이미지](https://github.com/openshift/origin-aggregated-logging/tree/v3.9.0/fluentd) 는 이러한 json 로그를 구문 분석하고 이를 Elasticsearch로 전달된 메시지에 병합하는 사전 구성된 플러그인과 함께 제공됩니다. 이는 여러 줄 로그에 유용할 뿐만 아니라 로그 이벤트의 다른 필드(예: 타임스탬프, 심각도)가 Elasticsearch에서 보기 좋게 표시되도록 보장합니다.
 
 Logback 또는 Log4j가 있는 Java 애플리케이션의 경우 [이 자세한 게시물을](https://developers.redhat.com/blog/2018/01/22/openshift-structured-application-logs/) 살펴보세요 . 우리는 추가 할 필요가 구성 로그를 사용하려면 [*logstash-logback-인코더*](https://github.com/logstash/logstash-logback-encoder) (참조 클래스 패스에 [pom.xml 파일을](https://github.com/bszeti/multiline-log/blob/master/pom.xml) ) 및 사용 *LogstashEncoder을* 이 같이 [*logback.xml*](https://github.com/bszeti/multiline-log/blob/master/src/main/resources/logback-logstash.xml) :
-
-<iframe src="https://itnext.io/media/958c12f5c29ae7b0f59b38f087ffc0dc" allowfullscreen="" frameborder="0" height="237" width="680" title="OpenShift의 여러 줄 로그 - logback-logstash.xml" class="t u v rl aj" scrolling="auto" style="box-sizing: inherit; position: absolute; top: 0px; left: 0px; width: 680px; height: 236.984px;"></iframe>
 
 이 구성을 사용하면 Kibana에서 로그가 멋지게 보이지만 OpenShift 웹 콘솔에서 읽거나 `oc`json 메시지인 클라이언트를 사용하여 읽기가 어렵습니다 .
 
