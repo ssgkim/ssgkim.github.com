@@ -19,6 +19,7 @@ article_section: IT근황 공유하기
 meta_keywords: openshift,kubernetes,cncf,infra,tls
 last_modified_at: '2021-12-13 23:00:00 +0800'
 ---
+
 OpenShift v4.x 버전의 인증서 만료 기간에 대해서 정리한다.  
 
 ## 0. 공통
