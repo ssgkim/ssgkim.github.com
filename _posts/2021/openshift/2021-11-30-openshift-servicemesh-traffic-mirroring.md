@@ -17,7 +17,7 @@ article_tag2: ServiceMesh
 article_tag3: infra
 article_section: IT근황 공유하기
 meta_keywords: openshift,kubernetes,cncf,infra,servicemesh
-last_modified_at: '2021-11-16 23:00:00 +0800'
+last_modified_at: '2021-11-30 23:00:00 +0800'
 ---
 
 안전하고 예측 가능한 모드에서 라이브 프로덕션으로 테스트 사례를 수행하는 방법은? Service Mesh 내에서 어떻게 이를 달성할 수 있을까? 
