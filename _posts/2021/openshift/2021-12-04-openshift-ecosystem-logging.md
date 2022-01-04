@@ -36,11 +36,9 @@ last_modified_at: '2021-12-04 23:00:00 +0800'
 - 구조화된 json 로그 사용
 
 > 이 게시물을 작성하는 동안 사용된 소프트웨어 버전:
-> \- OpenShift v3.9
-> \- Kubernetes v1.9
-> \- Fluentd v0.12.42
-> \- Elasticsearch v2.4.4
-> \- Kibana v4.6.4
+> \- OpenShift v4.9
+> \- Kubernetes v1.19
+> \- OpenShift Logging 5.3
 > \- Spring Boot v1.5.13
 > \- Logback v1.1.11
 > \- logstash-logback-encoder v5.1
