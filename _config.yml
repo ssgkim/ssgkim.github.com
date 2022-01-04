@@ -9,7 +9,7 @@ title_separator          : "&#124;" # 타이틀 사이 구분자 <title>Welcome 
 subtitle                 : "Version 1.0" # 타이틀 아래에 나올 작은 글씨 
 name                     : "Guru Gons" # 맨 하단 이름 찍히는 영역
 description              : "OpenShift와 Cloud-native 혹은 Sever등 다양한 IT주제를 공유하는 블로그" # Meta 태그에 들어가는 영역 
-url                      : "https://ssgkim.github.com" # GitBlog 호스트 주소
+url                      : "https://ssgkim.github.io" # GitBlog 호스트 주소
 baseurl                  : # subPath https://ssgkim.github.io/blog라고 하고 싶을 시 "/blog" 라고 적는다.
 repository               : "ssgkim/ssgkim.github.com" # GitHub username/repo-name  
 teaser                   : # "/assets/images/senior-couple-4723737_640.jpg" # 홈페이지 기본 티져 이미지
