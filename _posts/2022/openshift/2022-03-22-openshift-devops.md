@@ -18,7 +18,7 @@ article_tag2: Cloud
 article_tag3: DevOps
 article_section: IT근황 공유하기
 meta_keywords: openshift,DevOps,cloud,devsecops
-last_modified_at: '2022-03-21 23:00:00 +0800'
+last_modified_at: '2022-03-22 23:00:00 +0800'
 ---
 
 
