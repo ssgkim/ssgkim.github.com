@@ -32,5 +32,5 @@ last_modified_at: '2022-05-12 23:00:00 +0800'
 {: .notice--info}
 
 **참고자료** <br>
--- [https://www.mk.co.kr/news/it/view/2022/05/409602/]({{"https://www.mk.co.kr/news/it/view/2022/05/409602/"} <br>
+-- [https://www.mk.co.kr/news/it/view/2022/05/409602/]({{"https://www.mk.co.kr/news/it/view/2022/05/409602/"}}){:target="_blank"} <br>
 {: .notice--info}
