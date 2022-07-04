@@ -11,7 +11,7 @@ categories:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: '레드햇 인증 클라우드 및 서비스 제공업체(CCSP) 파트너십'을 체결
+description: 레드햇 인증 클라우드 및 서비스 제공업체(CCSP) 파트너십 을 체결
 article_tag1: OpenShift
 article_tag2: RH-Kakao
 article_tag3: OpenSource
