@@ -42,5 +42,5 @@ MS와 협력 강화도 구체화했다. MS 애저용 레드햇 앤서블 오토�
 {: .notice--info}
 
 **참고자료** <br>
--- [https://www.etnews.com/20220511000129]({{"https://www.etnews.com/20220511000129"} <br>
+-- [https://www.etnews.com/20220511000129]({{"https://www.etnews.com/20220511000129"}}){:target="_blank"} <br>
 {: .notice--info}
