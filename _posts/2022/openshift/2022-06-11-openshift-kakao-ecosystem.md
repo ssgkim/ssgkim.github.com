@@ -1,5 +1,5 @@
 ---
-title: 레드햇-카카오엔터프라이즈, '레드햇 CCSP' 파트너십 체결
+title: 레드햇-카카오엔터프라이즈, 레드햇 CCSP 파트너십 체결
 layout: single
 author_profile: true
 read_time: true
