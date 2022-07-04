@@ -38,5 +38,5 @@ last_modified_at: '2022-05-26 23:00:00 +0800'
 {: .notice--info}
 
 **참고자료** <br>
--- [https://www.youtube.com/watch?v=Qf1tiX2p8P0]({{"https://www.youtube.com/watch?v=Qf1tiX2p8P0"}}){:target="_blank"}<br>
+-- [http://biz.heraldcorp.com/view.php?ud=20220525000386&ACE_SEARCH=1]({{"http://biz.heraldcorp.com/view.php?ud=20220525000386&ACE_SEARCH=1"}}){:target="_blank"}<br>
 {: .notice--info}
