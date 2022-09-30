@@ -17,7 +17,7 @@ article_tag2: Operator
 article_tag3: OpenSource
 article_section: IT근황 공유하기
 meta_keywords: openshift,monitoring,telemetry,runtimes
-last_modified_at: '2022-07-21 23:00:00 +0800'
+last_modified_at: '2022-08-21 23:00:00 +0800'
 ---
 
 # 도커 이미지 보안 스캐닝을 위한 바이러스 테스트
