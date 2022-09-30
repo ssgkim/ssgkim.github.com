@@ -17,7 +17,7 @@ article_tag2: Operator
 article_tag3: OpenSource
 article_section: IT근황 공유하기
 meta_keywords: openshift,monitoring,telemetry,runtimes
-last_modified_at: '2022-07-22 23:00:00 +0800'
+last_modified_at: '2022-08-22 23:00:00 +0800'
 ---
 
 # ACM 삭제를 실패 했을 경우 - CRD multiclusterhub를 제거할 수 없음
