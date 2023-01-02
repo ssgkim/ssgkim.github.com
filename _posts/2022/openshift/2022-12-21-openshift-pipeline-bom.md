@@ -17,7 +17,7 @@ article_tag2: Operator
 article_tag3: OpenSource
 article_section: IT근황 공유하기
 meta_keywords: openshift,monitoring,telemetry,runtimes
-last_modified_at: '2022-12-28 17:00:00 +0800'
+last_modified_at: '2022-12-21 17:00:00 +0800'
 
 ---
 
